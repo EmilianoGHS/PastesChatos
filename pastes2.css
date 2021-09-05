@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    text-align: center;
+  }
+
+  body {
+    background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333232, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2b2929, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Patrick Hand', cursive;
+  }
+
+.header {
+  text-align: top;
+  font-size: 1.5rem;
+  background-image: url(https://live.staticflickr.com/4048/4373672161_3d3ef1d84c_b.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+  padding: 10rem;
+}
+nav :hover{
+font-size: 2rem;
+color: crimson;
+text-decoration: none;
+ }
+.contenido-principal{
+  background-image: url(https://www.elsoldetlaxcala.com.mx/incoming/xdof6v-pueblo-magico-2-.png/ALTERNATES/FREE_768/pueblo-magico-2-.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+  font-size: 2.1rem;
+}
+h4, h3{
+  font-size: 2rem;
+}
+.virgen {
+ margin: auto;
+}
+.texto{
+  font-size: 1.5rem;
+}
+
+.museo{
+  height: 500px;
+  height: 650px;
+}
+.plaza {
+  height: 450px;
+  height: 600px;
+}
+
+/*No sirve*/
+.grid{
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+}
